@@ -16,21 +16,6 @@ public class P455 {
                 index++;
             }
         }
-        return feeded;
-        /*while (index < s.length) {
-           int remain = s[index++];
-           while(feeded < g.length) {
-               if (remain >= g[feeded]) {
-                   remain -= g[feeded];
-                   feeded++;
-               } else {
-                   break;
-               }
-           }
-           if (feeded >= g.length) {
-               break;
-           }
-        }
-        return feeded;*/
+        return feeded;        
     }
 }
